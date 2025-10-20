@@ -1,332 +1,343 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Portofolio Saya - Genta Ramadhan</title>
-    <meta name="description" content="Portofolio pribadi Genta Ramadhan: Web Developer, UI/UX Designer, Network Engineer, dan Android Developer. Lihat proyek-proyek saya dan hubungi saya.">
-    <meta name="keywords" content="portofolio, Genta Ramadhan, web developer, UI/UX designer, network engineer, android developer, freelancer, Jakarta">
-    <meta name="author" content="Genta Ramadhan">
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portofolio Saya - Genta Ramadhan</title>
+        <meta name="description" content="Portofolio pribadi Genta Ramadhan: Web Developer, UI/UX Designer, Network Engineer, dan Android Developer. Lihat proyek-proyek saya dan hubungi saya.">
+        <meta name="keywords" content="portofolio, Genta Ramadhan, web developer, UI/UX designer, network engineer, android developer, freelancer, Jakarta">
+        <meta name="author" content="Genta Ramadhan">
 
-    <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.css"/>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
 
-    <header>
-        <div class="header-content" data-aos="fade-down">
-            <img src="images/foto-profil.jpg" alt="Foto Genta Ramadhan" class="profile-photo" />
-            <h1>Halo, Saya <span class="highlight">Genta Ramadhan</span></h1>
-            <p>Web Developer | UI/UX Designer | Freelancer | Network Engineer | Android Developer</p>
-            <a href="downloadsCV_Genta_Ramadhan.pdf" download class="btn-download-cv" data-aos="zoom-in">Unduh CV <i class="fas fa-download"></i></a>
-        </div>
-        <nav>
-            <a href="#about">Tentang</a>
-            <a href="#skills">Skill</a>
-            <a href="#projects">Proyek</a>
-            <a href="#testimonials">Testimoni</a>
-            <a href="#contact">Kontak</a>
-        </nav>
-    </header>
-
-    <main>
-        <section id="about" data-aos="fade-up">
-            <h2>Tentang Saya</h2>
-            <p>Saya adalah lulusan SMK Telkom Jakarta yang memiliki minat kuat dalam bidang jaringan komputer dan teknologi informasi. Saat ini saya sedang menempuh pendidikan S1 Teknik Informatika di Universitas Pamulang dan aktif mengembangkan keterampilan teknis seperti konfigurasi jaringan menggunakan Cisco Packet Tracer, dan troubleshooting jaringan menggunakan Cisco, GNS3, dan Winbox, serta pernah membangun topologi jaringan lengkap satu gedung dengan routing RIP, OSPF, dan EIGRP. serta mempelajari dasar-dasar pemrograman. Saya memiliki pengalaman langsung di lapangan sebagai Teknisi PSB di PT Telkom Indonesia serta telah dinyatakan kompeten oleh BNSP dalam bidang Junior Network Administrator. Saya dikenal sebagai pribadi yang cepat belajar, mampu bekerja dalam tim, dan siap berkembang sebagai Network Engineer di industri teknologi.</p>
-        </section>
-
-        <section id="skills" data-aos="fade-right">
-            <h2>Skill</h2>
-            <div class="skill-group">
-                <div class="skill-item">
-                    <i class="fab fa-html5 skill-icon html-icon-color"></i>
-                    <div class="skill">
-                        <p>HTML</p>
-                        <div class="bar"><div style="width: 90%"></div><span class="percentage">90%</span></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-css3-alt skill-icon css-icon-color"></i>
-                    <div class="skill">
-                        <p>CSS</p>
-                        <div class="bar"><div style="width: 80%"></div><span class="percentage">80%</span></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-js-square skill-icon js-icon-color"></i>
-                    <div class="skill">
-                        <p>JavaScript</p>
-                        <div class="bar"><div style="width: 75%"></div><span class="percentage">75%</span></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-python skill-icon python-icon-color"></i>
-                    <div class="skill">
-                        <p>Python</p>
-                        <div class="bar"><div style="width: 70%"></div><span class="percentage">70%</span></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-android skill-icon android-icon-color"></i>
-                    <div class="skill">
-                        <p>Mobile Programming (Java, Kotlin, Android Studio)</p>
-                        <div class="bar"><div style="width: 85%"></div><span class="percentage">85%</span></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-drafting-compass skill-icon uiux-icon-color"></i>
-                    <div class="skill">
-                        <p>UI/UX Design (Figma, Adobe XD, Prototyping)</p>
-                        <div class="bar"><div style="width: 80%"></div><span class="percentage">80%</span></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-network-wired skill-icon network-icon-color"></i>
-                    <div class="skill">
-                        <p>Network Engineering (Cisco, Mikrotik, Subnetting)</p>
-                        <div class="bar"><div style="width: 88%"></div><span class="percentage">88%</span></div>
-                    </div>
-                </div>
+        <header>
+            <div class="header-content" data-aos="fade-down">
+                <img src="images/foto-profil.jpg" alt="Foto Genta Ramadhan" class="profile-photo" />
+                <h1>Halo, Saya <span class="highlight">Genta Ramadhan</span></h1>
+                <p>Web Developer | UI/UX Designer | Freelancer | Network Engineer | Android Developer</p>
+                <a href="download/downloadsCV_Genta_Ramadhan.pdf" download class="btn-download-cv" data-aos="zoom-in">Unduh CV <i class="fas fa-download"></i></a>
             </div>
-        </section>
+            <nav>
+                <a href="#about">Tentang</a>
+                <a href="#skills">Skill</a>
+                <a href="#projects">Proyek</a>
+                <a href="#testimonials">Testimoni</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" data-aos="fade-up">
+                <h2>Tentang Saya</h2>
+                <p>Saya adalah lulusan SMK Telkom Jakarta yang memiliki minat kuat dalam bidang jaringan komputer dan teknologi informasi. Saat ini saya sedang menempuh pendidikan S1 Teknik Informatika di Universitas Pamulang dan aktif mengembangkan keterampilan teknis seperti konfigurasi jaringan menggunakan Cisco Packet Tracer, dan troubleshooting jaringan menggunakan Cisco, GNS3, dan Winbox, serta pernah membangun topologi jaringan lengkap satu gedung dengan routing RIP, OSPF, dan EIGRP. serta mempelajari dasar-dasar pemrograman. Saya memiliki pengalaman langsung di lapangan sebagai Teknisi PSB di PT Telkom Indonesia serta telah dinyatakan kompeten oleh BNSP dalam bidang Junior Network Administrator. Saya dikenal sebagai pribadi yang cepat belajar, mampu bekerja dalam tim, dan siap berkembang sebagai Network Engineer di industri teknologi.</p>
+            </section>
+
+            <section id="skills" data-aos="fade-right">
+                <h2>Skill</h2>
+                <div class="skill-group">
+                    <div class="skill-item">
+                        <i class="fab fa-html5 skill-icon html-icon-color"></i>
+                        <div class="skill">
+                            <p>HTML</p>
+                            <div class="bar"><div style="width: 90%"></div><span class="percentage">90%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt skill-icon css-icon-color"></i>
+                        <div class="skill">
+                            <p>CSS</p>
+                            <div class="bar"><div style="width: 80%"></div><span class="percentage">80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js-square skill-icon js-icon-color"></i>
+                        <div class="skill">
+                            <p>JavaScript</p>
+                            <div class="bar"><div style="width: 75%"></div><span class="percentage">75%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python skill-icon python-icon-color"></i>
+                        <div class="skill">
+                            <p>Python</p>
+                            <div class="bar"><div style="width: 70%"></div><span class="percentage">70%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-android skill-icon android-icon-color"></i>
+                        <div class="skill">
+                            <p>Mobile Programming (Java, Kotlin, Android Studio)</p>
+                            <div class="bar"><div style="width: 85%"></div><span class="percentage">85%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-drafting-compass skill-icon uiux-icon-color"></i>
+                        <div class="skill">
+                            <p>UI/UX Design (Figma, Adobe XD, Prototyping)</p>
+                            <div class="bar"><div style="width: 80%"></div><span class="percentage">80%</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-network-wired skill-icon network-icon-color"></i>
+                        <div class="skill">
+                            <p>Network Engineering (Cisco, Mikrotik, Subnetting)</p>
+                            <div class="bar"><div style="width: 88%"></div><span class="percentage">88%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         <section id="projects" data-aos="fade-left">
-            <h2>Proyek</h2>
-            <div class="project-grid">
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Website Sekolah</h3>
-                    <p>Website informasi dan pendaftaran siswa berbasis HTML, CSS, PHP, dan MySQL.
-        Dilengkapi form pendaftaran dan tampilan responsif.</p>
-                    <img src="images/website-sekolah.png" alt="Website Sekolah" loading="lazy"/>
-                    <a href="./path/to/your/website-bia.html" target="_blank">🌐 Lihat Proyek</a> 
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Aplikasi Android: Google Lens Application</h3>
-                    <img src="images/google-lens.jpg" alt="Google Lens" loading="lazy"/>
-                    <p>Aplikasi Android berbasis Java menggunakan ML Kit dan RecyclerView. Fitur: deteksi objek, OCR, dan pencarian Google otomatis.</p>
-                    <a href="https://github.com/taaaaraaaa/Google-Lens-Application" target="_blank">🔗 Lihat di GitHub</a> |
-                    <a href="./path/to/your/Genta Ramadhan - Google Lens Application.apk" target="_blank">⬇️ Unduh APK</a>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Aplikasi Android: Aplikasi Edukasi Interaktif Untuk difabel</h3>
-                    <img src="images/edukasi-difabel.jpg" alt="Quiz Edukasi" loading="lazy"/>
-                    <p>Aplikasi edukasi Interaktif Untuk difabel dengan fitur Pilih Materi: Pengguna bisa memilih mata pelajaran: Matematika, Bahasa Indonesia, Fisika. Soal Akan Tampil di Sini: Area untuk menampilkan soal sesuai materi yang dipilih. Rekam Suara (🎤 Rekam Suara): Fitur ini memungkinkan pengguna menjawab soal dengan suara. Diduga menggunakan Speech Recognition untuk mendeteksi jawaban. Skor dan Grafik Skor: Menampilkan nilai (skor) pengguna. Grafik menampilkan perkembangan skor. Reset Skor: Mengatur ulang skor ke 0. Histori Skor: Melihat riwayat skor sebelumnya. Ganti Mode Siang/Malam: Mengubah tampilan UI antara mode terang dan gelap.</p>
-                    <a href="https://github.com/taaaaraaaa/Aplikasi-Edukasi-Interaktif-untuk-Difabel" target="_blank">🔗 Lihat di GitHub</a>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Aplikasi Android: Gemini AI Assistant</h3>
-                    <img src="images/gemini-ai.jpg" alt="Gemini AI App" loading="lazy"/>
-                    <p>Aplikasi Android berbasis Java yang terintegrasi dengan Gemini AI (Google Generative AI). Pengguna dapat mengetik pertanyaan dan menerima jawaban langsung dari AI.</p>
-                    <ul>
-                        <li>➤ Input pertanyaan</li>
-                        <li>➤ Tanyakan ke Gemini dengan 1 klik</li>
-                        <li>➤ Jawaban AI tampil otomatis</li>
-                        <li>➤ Desain UI responsif dan ringan</li>
-                    </ul>
-                    <p>
-                        <a href="https://github.com/taaaaraaaa/Latihan-14-Ai" target="_blank">🔗 Lihat di GitHub</a> |
-                        <a href="./path/to/your/Genta Ramadhan - Gemini.apk" target="_blank">⬇️ Unduh APK</a>
-                    </p>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Aplikasi Android: Keuangan Pribadi</h3>
-                    <img src="images/keuangan-pribadi.jpg" alt="Keuangan Pribadi" loading="lazy"/>
-                    <p>Aplikasi Android untuk mencatat dan memantau pengeluaran pribadi harian, mingguan, dan bulanan. Dibuat menggunakan Java dan SQLite.</p>
-                    <ul>
-                        <li>➤ Kategori pengeluaran: Makan, Hobi, Kantor, Rumah Tangga, Kendaraan, dll.</li>
-                        <li>➤ Perhitungan otomatis kas dan pengeluaran</li>
-                        <li>➤ Tampilan sederhana, intuitif, dan mudah digunakan</li>
-                        <li>➤ Menyimpan data transaksi secara lokal menggunakan SQLite</li>
-                    </ul>
-                    <p>
-                        <a href="https://github.com/taaaaraaaa/Aplikasi-Keuangan-Pribadi" target="_blank">🔗 Lihat di GitHub</a> |
-                        <a href="./path/to/your/Apk Keuangan pribadi - Genta Ramadhan.apk" target="_blank">⬇️ Unduh APK</a>
-                    </p>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Project: Aplikasi Database Mahasiswa</h3>
-                    <img src="images/database-mahasiswa.png" alt="Database Mahasiswa" loading="lazy"/>
-                    <p>Aplikasi manajemen data mahasiswa berbasis MySQL dan PHP. Data disimpan dalam tabel dan ditampilkan secara dinamis menggunakan query SQL. Menampilkan data seperti NIM, nama, alamat, email, dan no telepon dari database.</p>
-                    <a href="https://your-live-project-url.com/database/structure" target="_blank">🌐 Lihat Aplikasi</a> |
-                    <a href="images/database-mahasiswa.png" target="_blank">📸 Lihat Gambar</a>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>UI/UX Design: Aplikasi Asisten Produktivitas Adaptif</h3>
-                    <img src="images/uiux-booking.png" alt="UI UX Booking App" loading="lazy"/>
-                    <p>Desain prototipe Aplikasi Asisten Produktivitas Adaptif untuk Membantu pengguna mengatur tugas harian dan aktivitas berdasarkan waktu dan suasana hati (pagi/sore/malam), Memberikan rekomendasi cerdas dan pengingat personal, Menyesuaikan konten dan saran berdasarkan kebiasaan pengguna (adaptif).</p>
-                    <a href="https://www.figma.com/file/YOUR_FIGMA_FILE_ID/Booking-App" target="_blank">🎨 Lihat di Figma</a>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Website Portofolio: Flask Python</h3>
-                    <img src="images/web-portofolio-flask.png" alt="Web Portofolio Flask" loading="lazy"/>
-                    <p>Website portofolio pribadi dinamis yang dibuat menggunakan Flask dan Python. Menyediakan tampilan profil, proyek, kontak, dan kemampuan backend routing serta render template.</p>
-                    <ul>
-                        <li>➤ Dibuat dengan Flask dan Python</li>
-                        <li>➤ Routing dinamis dan template Jinja2</li>
-                        <li>➤ Struktur folder rapi (static, templates)</li>
-                        <li>➤ Siap di-deploy ke Heroku atau Replit</li>
-                    </ul>
-                    <p>
-                        <a href="https://github.com/taaaaraaaa/Web-portofolio-Flask-python" target="_blank">🔗 Lihat di GitHub</a> |
-                        <a href="downloads/WebPortofolioFlask.zip" target="_blank" download>⬇️ Unduh ZIP</a>
-                    </p>
-                </div>
-
-                <div class="project-card" data-aos="zoom-in">
-                    <h3>Network Engineering: Konfigurasi Cisco & Mikrotik</h3>
-                    <img src="images/network-project.png" alt="Network Project" loading="lazy"/>
-                    <p>Simulasi dan implementasi jaringan menggunakan Cisco Packet Tracer dan Mikrotik RouterOS. Termasuk konfigurasi IP, routing OSPF, VLAN, NAT, dan pengujian koneksi.</p>
-                    <a href="https://github.com/taaaaraaaa/Cisco-Packet-Tracer-" target="_blank">🔗 Lihat Dokumentasi di GitHub</a> |
-                    <a href="https://drive.google.com/file/d/1ThcpgNKpZc1jnRlkLZJGiTIUsYrebxmj/view?usp=drive_link" target="_blank">📄 Lihat Laporan PDF</a>
-                </div>
+        <h2>Proyek</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Website Sekolah</h3>
+                <p>Website informasi dan pendaftaran siswa berbasis HTML, CSS, PHP, dan MySQL.
+                Dilengkapi form pendaftaran dan tampilan responsif.</p>
+                <img src="images/website-sekolah.png" alt="Website Sekolah" loading="lazy"/>
+                <a href="./path/to/your/website-bia.html" target="_blank">🌐 Lihat Proyek</a> 
             </div>
-        </section>
 
-        <section id="testimonials" data-aos="fade-up">
-            <h2>Testimoni</h2>
-            <div class="testimonial-container">
-                <div class="testimonial-box">
-                    <span>Klien A</span>
-                    <p>"Sangat profesional dan hasil kerjanya bagus!"</p>
-                </div>
-                <div class="testimonial-box">
-                    <span>Klien B</span>
-                    <p>"Pengerjaannya cepat dan komunikatif."</p>
-                </div>
-                <div class="testimonial-box">
-                    <span>Dosen C</span>
-                    <p>"Genta memiliki pemahaman yang kuat di bidang jaringan dan pemrograman. Selalu berinisiatif dalam setiap proyek."</p>
-                </div>
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Aplikasi Android: Google Lens Application</h3>
+                <img src="images/google-lens.jpg" alt="Google Lens" loading="lazy"/>
+                <p>Aplikasi Android berbasis Java menggunakan ML Kit dan RecyclerView. Fitur: deteksi objek, OCR, dan pencarian Google otomatis.</p>
+                <a href="https://github.com/taaaaraaaa/Google-Lens-Application" target="_blank">🔗 Lihat di GitHub</a> |
+                <a href="./path/to/your/Genta Ramadhan - Google Lens Application.apk" target="_blank">⬇️ Unduh APK</a>
             </div>
-        </section>
 
-        <section id="contact" data-aos="fade-up">
-            <h2>Kontak</h2>
-            <form id="contactForm">
-                <input type="text" id="contactName" placeholder="Nama" required />
-                <input type="email" id="contactEmail" placeholder="Email" required />
-                <textarea id="contactMessage" placeholder="Pesan" required></textarea>
-                <button type="submit">Kirim</button>
-            </form>
-            <p id="successMessage" class="message"></p>
-            <p id="errorMessage" class="message error-message"></p>
-
-            <div class="contact-info">
-                <h3>Hubungi Saya</h3>
-                <p><i class="fas fa-envelope"></i> gentagentaramadhan@gmail.com</p>
-                <p><i class="fas fa-phone"></i> +62 895-3225-89140 / +62 812-8953-6006</p>
-                <p><i class="fas fa-map-marker-alt"></i> Kemanggisan Jakarta Barat, Indonesia</p>
-
-                <div class="social-icons">
-                    <p><a href="https://www.instagram.com/g_12_28/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram"></i> Instagram
-                    </a></p>
-
-                    <p><a href="https://www.linkedin.com/in/genta-ramadhan-852ba820b/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a></p>
-
-                    <p><a href="https://github.com/taaaaraaaa" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i> GitHub
-                    </a></p>
-                </div>
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Aplikasi Android: Aplikasi Edukasi Interaktif Untuk Difabel</h3>
+                <img src="images/edukasi-difabel.jpg" alt="Quiz Edukasi" loading="lazy"/>
+                <p>Aplikasi edukasi interaktif untuk difabel dengan fitur materi pelajaran, soal suara (speech recognition), skor dan grafik perkembangan, mode siang/malam, dan histori skor.</p>
+                <a href="https://github.com/taaaaraaaa/Aplikasi-Edukasi-Interaktif-untuk-Difabel" target="_blank">🔗 Lihat di GitHub</a>
             </div>
-        </section>
-    </main>
 
-    <footer>
-        <p>© 2025 Genta Ramadhan. Semua Hak Dilindungi</p>
-        <div class="socials">
-            <a href="https://www.instagram.com/g_12_28/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/genta-ramadhan-852ba820b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/taaaaraaaa" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Aplikasi Android: Gemini AI Assistant</h3>
+                <img src="images/gemini-ai.jpg" alt="Gemini AI App" loading="lazy"/>
+                <p>Aplikasi Android berbasis Java yang terintegrasi dengan Gemini AI (Google Generative AI). Pengguna dapat mengetik pertanyaan dan menerima jawaban langsung dari AI.</p>
+                <ul>
+                    <li>➤ Input pertanyaan</li>
+                    <li>➤ Tanyakan ke Gemini dengan 1 klik</li>
+                    <li>➤ Jawaban AI tampil otomatis</li>
+                    <li>➤ Desain UI responsif dan ringan</li>
+                </ul>
+                <p>
+                    <a href="https://github.com/taaaaraaaa/Latihan-14-Ai" target="_blank">🔗 Lihat di GitHub</a> |
+                    <a href="./path/to/your/Genta Ramadhan - Gemini.apk" target="_blank">⬇️ Unduh APK</a>
+                </p>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Aplikasi Android: Keuangan Pribadi</h3>
+                <img src="images/keuangan-pribadi.jpg" alt="Keuangan Pribadi" loading="lazy"/>
+                <p>Aplikasi Android untuk mencatat dan memantau pengeluaran pribadi harian, mingguan, dan bulanan. Dibuat menggunakan Java dan SQLite.</p>
+                <ul>
+                    <li>➤ Kategori pengeluaran: Makan, Hobi, Kantor, Rumah Tangga, Kendaraan, dll.</li>
+                    <li>➤ Perhitungan otomatis kas dan pengeluaran</li>
+                    <li>➤ Tampilan sederhana dan intuitif</li>
+                    <li>➤ Menyimpan data transaksi lokal dengan SQLite</li>
+                </ul>
+                <p>
+                    <a href="https://github.com/taaaaraaaa/Aplikasi-Keuangan-Pribadi" target="_blank">🔗 Lihat di GitHub</a> |
+                    <a href="./path/to/your/Apk Keuangan pribadi - Genta Ramadhan.apk" target="_blank">⬇️ Unduh APK</a>
+                </p>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Project: Aplikasi Database Mahasiswa</h3>
+                <img src="images/database-mahasiswa.png" alt="Database Mahasiswa" loading="lazy"/>
+                <p>Aplikasi manajemen data mahasiswa berbasis MySQL dan PHP. Menampilkan data NIM, nama, alamat, email, dan no telepon dari database.</p>
+                <a href="https://your-live-project-url.com/database/structure" target="_blank">🌐 Lihat Aplikasi</a> |
+                <a href="images/database-mahasiswa.png" target="_blank">📸 Lihat Gambar</a>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in">
+                <h3>UI/UX Design: Aplikasi Asisten Produktivitas Adaptif</h3>
+                <img src="images/uiux-booking.png" alt="UI UX Booking App" loading="lazy"/>
+                <p>Desain prototipe aplikasi untuk membantu pengguna mengatur tugas harian berdasarkan waktu dan suasana hati. Memberikan rekomendasi adaptif dan pengingat personal.</p>
+                <a href="https://www.figma.com/file/YOUR_FIGMA_FILE_ID/Booking-App" target="_blank">🎨 Lihat di Figma</a>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Website Portofolio: Flask Python</h3>
+                <img src="images/web-portofolio-flask.png" alt="Web Portofolio Flask" loading="lazy"/>
+                <p>Website portofolio pribadi dinamis yang dibuat menggunakan Flask dan Python. Menyediakan profil, proyek, kontak, dan backend routing.</p>
+                <ul>
+                    <li>➤ Dibuat dengan Flask dan Python</li>
+                    <li>➤ Routing dinamis dengan Jinja2</li>
+                    <li>➤ Struktur folder rapi</li>
+                    <li>➤ Siap di-deploy ke Heroku atau Replit</li>
+                </ul>
+                <p>
+                    <a href="https://github.com/taaaaraaaa/Web-portofolio-Flask-python" target="_blank">🔗 Lihat di GitHub</a> |
+                    <a href="downloads/WebPortofolioFlask.zip" target="_blank" download>⬇️ Unduh ZIP</a>
+                </p>
+            </div>
+
+            <div class="project-card" data-aos="zoom-in">
+                <h3>Network Engineering: Konfigurasi Cisco & Mikrotik</h3>
+                <img src="images/network-project.png" alt="Network Project" loading="lazy"/>
+                <p>Simulasi dan implementasi jaringan menggunakan Cisco Packet Tracer dan Mikrotik RouterOS. Termasuk konfigurasi IP, routing OSPF, VLAN, NAT, dan pengujian koneksi.</p>
+                <a href="https://github.com/taaaaraaaa/Cisco-Packet-Tracer-" target="_blank">🔗 Lihat Dokumentasi di GitHub</a> |
+                <a href="https://drive.google.com/file/d/1ThcpgNKpZc1jnRlkLZJGiTIUsYrebxmj/view?usp=drive_link" target="_blank">📄 Lihat Laporan PDF</a>
+            </div>
+
+            <!-- ✅ DITAMBAHKAN PROJEK BARU -->
+            <div class="project-card" data-aos="zoom-in">  
+                <h3>Aplikasi Data Mahasiswa</h3>
+                <img src="images/Aplikasi Data Mahasiswa.png" alt="Aplikasi Data Mahasiswa" loading="lazy"/>
+                <p>Aplikasi berbasis web untuk mengelola data mahasiswa menggunakan PHP, mencakup fitur tambah data, pencarian, pengurutan nilai, penghapusan data, serta perhitungan rata-rata nilai secara otomatis.</p>
+                <a href="https://github.com/taaaaraaaa/Aplikasi-Data-Mahasiswa" target="_blank">🔗 Lihat Kode di GitHub</a> |
+                <a href="https://drive.google.com/file/d/1F3W8LTnyFgBLYybEUb8dGFNrWpkDgBeK/view?usp=drive_link" target="_blank">📄 Lihat Laporan PDF</a>
+            </div>
         </div>
-    </footer>
+    </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 800, // Durasi animasi
-            once: true // Animasi hanya berjalan sekali saat di-scroll
-        });
 
-        const toggleDarkMode = () => {
-            document.body.classList.toggle("dark-mode");
-            // Simpan preferensi ke localStorage
-            if (document.body.classList.contains("dark-mode")) {
-                localStorage.setItem("theme", "dark");
-            } else {
-                localStorage.setItem("theme", "light");
-            }
-        };
 
-        // Cek preferensi tema saat halaman dimuat
-        document.addEventListener("DOMContentLoaded", () => {
-            if (localStorage.getItem("theme") === "dark") {
-                document.body.classList.add("dark-mode");
-            }
+            <section id="testimonials" data-aos="fade-up">
+                <h2>Testimoni</h2>
+                <div class="testimonial-container">
+                    <div class="testimonial-box">
+                        <span>Klien A</span>
+                        <p>"Sangat profesional dan hasil kerjanya bagus!"</p>
+                    </div>
+                    <div class="testimonial-box">
+                        <span>Klien B</span>
+                        <p>"Pengerjaannya cepat dan komunikatif."</p>
+                    </div>
+                    <div class="testimonial-box">
+                        <span>Dosen C</span>
+                        <p>"Genta memiliki pemahaman yang kuat di bidang jaringan dan pemrograman. Selalu berinisiatif dalam setiap proyek."</p>
+                    </div>
+                </div>
+            </section>
 
-            // --- Kode JavaScript untuk Smooth Scroll ---
-            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault(); // Mencegah perilaku default tautan
+            <section id="contact" data-aos="fade-up">
+                <h2>Kontak</h2>
+                <form id="contactForm">
+                    <input type="text" id="contactName" placeholder="Nama" required />
+                    <input type="email" id="contactEmail" placeholder="Email" required />
+                    <textarea id="contactMessage" placeholder="Pesan" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+                <p id="successMessage" class="message"></p>
+                <p id="errorMessage" class="message error-message"></p>
 
-                    const targetId = this.getAttribute('href');
-                    const targetElement = document.querySelector(targetId);
+                <div class="contact-info">
+                    <h3>Hubungi Saya</h3>
+                    <p><i class="fas fa-envelope"></i> gentagentaramadhan@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +62 895-3225-89140 / +62 812-8953-6006</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kemanggisan Jakarta Barat, Indonesia</p>
 
-                    if (targetElement) {
-                        // Menggunakan scrollIntoView untuk smooth scroll
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start' // Gulir ke awal elemen
-                        });
-                    }
-                });
+                    <div class="social-icons">
+                        <p><a href="https://www.instagram.com/genta_12_28/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a></p>
+
+                        <p><a href="https://www.linkedin.com/in/genta-ramadhan-852ba820b/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a></p>
+
+                        <p><a href="https://github.com/taaaaraaaa" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> GitHub
+                        </a></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Genta Ramadhan. Semua Hak Dilindungi</p>
+            <div class="socials">
+                <a href="https://www.instagram.com/genta_12_28/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/genta-ramadhan-852ba820b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/taaaaraaaa" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800, // Durasi animasi
+                once: true // Animasi hanya berjalan sekali saat di-scroll
             });
-            // --- Akhir Kode JavaScript untuk Smooth Scroll ---
 
-
-            const contactForm = document.getElementById("contactForm");
-            const successMessage = document.getElementById("successMessage");
-            const errorMessage = document.getElementById("errorMessage");
-
-            contactForm.addEventListener("submit", function(event) {
-                event.preventDefault(); // Mencegah form dikirim
-
-                // Validasi sederhana
-                const name = document.getElementById("contactName").value;
-                const email = document.getElementById("contactEmail").value;
-                const message = document.getElementById("contactMessage").value;
-
-                if (name && email && message) {
-                    successMessage.textContent = "Terima kasih, pesan Anda telah terkirim!";
-                    successMessage.style.display = "block";
-                    errorMessage.style.display = "none";
-                    contactForm.reset(); // Reset form setelah sukses
+            const toggleDarkMode = () => {
+                document.body.classList.toggle("dark-mode");
+                // Simpan preferensi ke localStorage
+                if (document.body.classList.contains("dark-mode")) {
+                    localStorage.setItem("theme", "dark");
                 } else {
-                    errorMessage.textContent = "Mohon lengkapi semua kolom.";
-                    errorMessage.style.display = "block";
-                    successMessage.style.display = "none";
+                    localStorage.setItem("theme", "light");
+                }
+            };
+
+            // Cek preferensi tema saat halaman dimuat
+            document.addEventListener("DOMContentLoaded", () => {
+                if (localStorage.getItem("theme") === "dark") {
+                    document.body.classList.add("dark-mode");
                 }
 
-                // Dalam proyek nyata, di sini Anda akan mengirim data ke backend
-                // Contoh: fetch('/submit-form', { method: 'POST', body: new FormData(this) })
-                // .then(response => response.json())
-                // .then(data => console.log(data));
+                // --- Kode JavaScript untuk Smooth Scroll ---
+                document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault(); // Mencegah perilaku default tautan
+
+                        const targetId = this.getAttribute('href');
+                        const targetElement = document.querySelector(targetId);
+
+                        if (targetElement) {
+                            // Menggunakan scrollIntoView untuk smooth scroll
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start' // Gulir ke awal elemen
+                            });
+                        }
+                    });
+                });
+                // --- Akhir Kode JavaScript untuk Smooth Scroll ---
+
+
+                const contactForm = document.getElementById("contactForm");
+                const successMessage = document.getElementById("successMessage");
+                const errorMessage = document.getElementById("errorMessage");
+
+                contactForm.addEventListener("submit", function(event) {
+                    event.preventDefault(); // Mencegah form dikirim
+
+                    // Validasi sederhana
+                    const name = document.getElementById("contactName").value;
+                    const email = document.getElementById("contactEmail").value;
+                    const message = document.getElementById("contactMessage").value;
+
+                    if (name && email && message) {
+                        successMessage.textContent = "Terima kasih, pesan Anda telah terkirim!";
+                        successMessage.style.display = "block";
+                        errorMessage.style.display = "none";
+                        contactForm.reset(); // Reset form setelah sukses
+                    } else {
+                        errorMessage.textContent = "Mohon lengkapi semua kolom.";
+                        errorMessage.style.display = "block";
+                        successMessage.style.display = "none";
+                    }
+
+                    // Dalam proyek nyata, di sini Anda akan mengirim data ke backend
+                    // Contoh: fetch('/submit-form', { method: 'POST', body: new FormData(this) })
+                    // .then(response => response.json())
+                    // .then(data => console.log(data));
+                });
             });
-        });
-    </script>
-</body>
-</html>
+        </script>
+    </body>
+    </html>
