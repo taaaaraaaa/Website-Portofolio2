@@ -1210,3 +1210,23 @@
         .skip-link:focus {
         top: 6px;
         }
+
+            /* ================= JARAK TEKS MAGANG / PKL ================= */
+    #internship .project-card {
+    justify-content: flex-start;
+    }
+
+    #internship p {
+    line-height: 1.5;
+    margin-bottom: 12px;
+    }
+
+    #internship ul {
+    margin-top: 10px;
+    }
+
+    #internship ul li {
+    margin-bottom: 6px;
+    line-height: 1.4;
+    }
+
