@@ -453,6 +453,65 @@
         box-shadow: 0 8px 18px var(--shadow-medium);
         }
 
+        /* ===== Project Detail Enhancement ===== */
+
+.project-card h2 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.project-card h4 {
+    font-size: 0.95em;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.dark-mode .project-card h4 {
+    color: #bbb;
+}
+
+.project-card h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+.project-card ul {
+    margin-bottom: 20px;
+}
+
+.project-card ul li {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+}
+
+/* ===== Tech Stack Badge Style ===== */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.tech-stack span {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: 500;
+    box-shadow: 0 3px 8px var(--shadow-light);
+    transition: transform 0.3s ease;
+}
+
+.tech-stack span:hover {
+    transform: scale(1.05);
+}
+
         /* ===== Testimonials Section ===== */
         #testimonials {
         background-color: #f8fbfd;
